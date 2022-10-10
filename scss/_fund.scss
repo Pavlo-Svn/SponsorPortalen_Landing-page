@@ -1,0 +1,144 @@
+.fund {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.fund__container {
+    text-align: center;
+}
+
+.fund__title {}
+
+.title {}
+
+.fund__subtitle {
+    max-width: 1035px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 150%;
+    text-align: center;
+    color: #727C81;
+    margin-bottom: 60px;
+}
+
+.fund__money-title {
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #04151F;
+    margin-bottom: 40px;
+}
+
+.fund__money-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.fund__money-item {
+    max-width: 392px;
+    padding: 32px;
+    display: flex;
+    gap: 20px;
+    background: #FDFCFF;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.18);
+    border-radius: 24px;
+}
+
+.fund-item {}
+
+.fund-item__img img {
+    padding: 5px;
+    background: #DCDAEB;
+    border-radius: 1000px;
+}
+
+.fund-item__text {
+    text-align: left;
+}
+
+.fund-item__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #435057;
+    margin-bottom: 8px;
+}
+
+.fund-item__subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #435057;
+}
+
+.fund__who-title {
+    margin-top: 60px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #04151F;
+}
+
+.fund__who-items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.fund__who-item {
+    text-align: left;
+}
+
+.who-item {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    background: #FDFCFF;
+    box-shadow: 0px 18px 30px rgba(0, 0, 0, 0.18);
+    border-radius: 24px;
+    padding: 32px;
+}
+
+.who-item__img {}
+
+.who-item__text {}
+
+.who-item__title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 150%;
+    color: #435057;
+}
+
+.who-item__subtitle {
+    line-height: 150%;
+    color: #435057;
+
+}
+
+.fund__button {
+    display: inline-block;
+    margin-top: 82px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #3B7F26;
+    padding: 22px 88px;
+    border: 1.5px solid #3B7F26;
+    border-radius: 10px;
+}
+@media (max-width:1270px) {
+    .fund__money-items{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .fund__money-item{
+        max-width: 100%;
+    }
+}

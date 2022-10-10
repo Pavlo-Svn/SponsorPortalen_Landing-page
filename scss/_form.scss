@@ -1,0 +1,54 @@
+.form {
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form__container {
+    text-align: center;
+}
+
+.form__title {}
+
+.title {}
+
+.form__body {
+    max-width: 816px;
+    margin: 0 auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.form-contacs{
+    height: 63px;
+    padding: 22px 24px;
+    line-height: 19px;
+    color: #727C81;
+    border: 1px solid #D8E5D4;
+    border-radius: 8px;
+}
+.form__name {}
+
+.form__email {}
+
+.form__phone {}
+
+.form__message {
+    min-height: 220px;
+    &::placeholder{
+        
+    }
+}
+
+.form__submit {
+    margin-top: 60px;
+    background: #3B7F26;
+    border-radius: 10px;
+    padding: 20px 114px;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    border: none;
+}

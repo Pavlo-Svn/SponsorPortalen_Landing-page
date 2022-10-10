@@ -1,0 +1,33 @@
+.sponsors {}
+
+.sponsors__container {
+    padding-top: 120px;
+    margin-bottom: 100px;
+}
+
+.sponsors__body {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.sponsors__title {}
+
+.sponsors__subtitle {
+    font-size: 20px;
+    line-height: 160%;
+    text-align: center;
+    color: #435057;
+}
+
+@media (max-width:992px) {
+
+.sponsors__container {
+    margin-top: 90px;
+    margin-bottom: 60px;
+}
+
+.sponsors__subtitle {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    background: #ffffff;
+}
+
+// ============================================
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+// =================================================
+
+[class*="__container"] {
+    max-width: 1270px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+// ========---------PK-----------=========
+@media (max-width:1270px) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+
+// ========---------TABLET-----------=========
+@media (max-width:992px) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+
+}
+
+// ========---------Mobile-----------=========
+@media (max-width:767.98px) {
+    [class*="__container"] {
+        max-width: none;
+    }
+
+    .header__logo-item {
+        width: 100px;
+    }
+
+}
+
+._lock{
+    overflow: hidden;
+}
+
+main {
+    flex: 1 1 auto;
+}
+
+.title{
+    display: inline-block;
+    margin-bottom: 60px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 120%;
+    text-align: center;
+    color: #04151F;
+    padding-bottom: 12px;
+    position: relative;
+    &::after{
+        position: absolute;
+        content: '';
+        width: 120px;
+        height: 2px;
+        background: #3B7F26;
+        border-radius: 10px;
+        left: calc(50% - 60px);
+        bottom: 0;
+    }
+}
+@media (max-width:992px) {
+    .title {
+        font-size: 62px;
+        line-height: 120%;
+    }
+
+}
+@media (max-width:992px) {
+    .title {
+        font-size: 43px;
+        line-height: 120%;
+    }
+}
+.button {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    transition: all 0.2s linear;
+    &:hover{
+        background: #316A20;
+    }
+}
